@@ -13,4 +13,6 @@ Use the following command to import plugin
 ```
 flutter pub get
 ```
+## Demo
+![](https://github.com/BijaySimkhada/OCR_flutter/blob/main/lib/gif/demo.gif)
 
