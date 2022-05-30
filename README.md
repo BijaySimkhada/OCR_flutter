@@ -1,16 +1,16 @@
 # test_ocr
 
-A new Flutter project.
+This project is only made for learning purpose
+The task done here captures texts from image and displays in screen
 
-## Getting Started
+## Plugins Used
 
-This project is a starting point for a Flutter application.
+google_ml_kit:
+url: https://pub.dev/packages/google_ml_kit
 
-A few resources to get you started if this is your first Flutter project:
+Use the following command to import plugin
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+flutter pub get
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
