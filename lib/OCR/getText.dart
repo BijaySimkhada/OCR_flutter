@@ -9,14 +9,10 @@ Future<List<RecognizedText>> getText(String imagePath) async {
   List<RecognizedText> recognizedList = [];
 
   for (TextBlock block in recognizedText.blocks) {
-  // for (var temp in block.lines) {
-  //   print(temp.text);
-  // }
-    print(block.text != null? block.text.toString():'');
+    // print(block.text != null? block.text.toString():'');
     recognizedList.add(RecognizedText(
         text: block.text as String,
         blocks:[]));
-        // blocks: block.lines.toLowerCase() as List<TextBlock>));
   }
 
   return recognizedList;
